@@ -12,4 +12,6 @@ function twoSum1(numbers: number[], target: number): number[] {
       p2--;
     }
   }
+  //for cases where no solution is found
+  return []
 }
